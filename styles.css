@@ -1,0 +1,49 @@
+/* Animal Trading Card CSS */
+
+.card-container {
+  display: block;
+  font: 14px arial, sans-serif;
+  background-color: #e8e8e8;
+  width: 300px;
+  padding: 10px;
+  border: 2px solid #e8e8e8;
+  border-radius: 5px;
+  box-shadow: 8px 8px #d3d3d3;
+  margin: 0 auto;
+}
+
+
+.card-header {
+  text-align: center;
+}
+
+
+.card-image {
+  border-radius: 5px;
+}
+
+
+.facts-container {
+  background-color: #f0e68c;
+  text-align: justify;
+  margin-top: 10px;
+  padding: 0 10px 10px 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 5px;
+}
+
+
+.interesting-fact {
+  font-style:italic;
+}
+
+
+.facts-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.facts-list > li > span {
+  font-weight: bold;
+}
